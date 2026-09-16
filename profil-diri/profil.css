@@ -278,3 +278,29 @@
                 margin-bottom: 40px;
             }
         }
+
+        /* Mobile Tablet (max-width 768px) */
+        @media (max-width: 768px) {
+            table {
+                font-size: 0.85rem;
+                min-width: 700px;
+            }
+            
+            table th,
+            table td {
+                padding: 10px 8px;
+            }
+        }
+        
+        /* Mobile Phone (max-width 480px) */
+        @media (max-width: 480px) {
+            table {
+                font-size: 0.75rem;
+                min-width: 600px;
+            }
+            
+            table th,
+            table td {
+                padding: 8px 5px;
+            }
+        }
